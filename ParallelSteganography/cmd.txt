@@ -1,0 +1,6 @@
+./ParallelSteganography -e -src ../TestImage/lena.png -h ../TestImage/baboon_gray.png -dst ../TestImage/stego-lena.png -k "High Performance Computing"
+
+
+./ParallelSteganography -d -src ../TestImage/stego-lena.png -dst ../TestImage/decoded.png -k "High Performance Computing" 
+
+./ParallelSteganography -psnr -src ../TestImage/lena.png -dst ../TestImage/stego-lena.png 
